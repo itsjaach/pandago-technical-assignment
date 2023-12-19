@@ -20,6 +20,7 @@
       </v-combobox>
       
       <v-text-field
+        clearable
         v-model="search"
         prepend-inner-icon="mdi-magnify"
         density="compact"
